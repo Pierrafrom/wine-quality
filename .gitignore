@@ -1,0 +1,34 @@
+# Virtual environment directories
+venv/
+.venv/
+
+# Dataset and data files
+data/
+*.csv
+*.tsv
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# IDE/editor configuration files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency lock files (if generated)
+Pipfile.lock
+poetry.lock
+
+# Log and test cache files
+*.log
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
